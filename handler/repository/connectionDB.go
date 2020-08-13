@@ -2,6 +2,7 @@ package repository
 
 import (
 	"database/sql"
+	_ "github.com/go-sql-driver/mysql"
 	"gitlab.com/pplayground/pet_tracking/main-framework/utils"
 	"gopkg.in/mgo.v2"
 	"log"
